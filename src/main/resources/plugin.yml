@@ -1,0 +1,12 @@
+main: com.github.homiedion.sunscreen.SunscreenPlugin
+name: Sunscreen
+version: "0.0.1"
+description: "A simple plugin that allows you to control who burns in sunlight."
+api-version: '1.20'
+load: POSTWORLD
+authors: [homiedion]
+website: "https://github.com/HomieDion"
+depend: [CommandAPI]
+softdepend: [WorldGuard]
+prefix: "Sunscreen"
+permissions:
